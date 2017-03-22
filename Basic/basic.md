@@ -92,6 +92,7 @@ true // true will be converted to 1 (1 means true, 0 means false) and then compa
 "Hello" == 1;
 false // The string gets converted into a number but the comparison can't be done because
     // Hello is not a number.
+    
 "true" == true;
 false // this was hard for me at first, but it makes sense, true is converted to 1, and "true" is compared to 1, but it can't be compared so "true" is converted 
      //to a number and javascript tries to compare again but fails and the result is false.

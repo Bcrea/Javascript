@@ -1,6 +1,6 @@
 # Basic Javascript
 
-##Primitive types
+## Primitive types
 
 * `strings` `numbers` `booleans` `null` and `undefined` everything else is an `object`.
 
@@ -46,7 +46,7 @@ if (a > b) {
 	*/
 }
 ```
-There are different Operator expressions to perform actions on javascript.
+There are different Operator expressions to perform actions on javascript:
 
 * Arithmetic operators `+` `-` `*` `/`
 * Assignment operator `=` 
@@ -56,7 +56,7 @@ There are different Operator expressions to perform actions on javascript.
 * preincrement operator `++a` postincrement operator `a--`
 * predecrement operator `--a` postdecrement operator `a--`
 
-preincrement operator: increments the value of the variable before using it `var ans = ++a;`if the value of a was 5, now it will be incremented to 6 before being assigned to ans.
+* preincrement operator: increments the value of the variable before using it `var ans = ++a;`if the value of a was 5, now it will be incremented to 6 before being assigned to ans.
 
 ## How to use operators
 
@@ -79,7 +79,7 @@ var myString = "Hello " + "World!"; // myString holds the string "Hello World!"
 
 ## Comparing different types
 
-When comparing different types, one will be converted to the other one so the comparison can be done.
+* When comparing different types, one will be converted to the other one so the comparison can be done.
 
 ```javascript
 
